@@ -5,6 +5,23 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
+        //My third change
+        public Category(int categoryId, string name, string description, string imageUrl)
+        {
+            this.CategoryId = categoryId;
+            this.Name = name;
+            this.Description = description;
+            this.ImageUrl = imageUrl;
+
+        }
+        public Category(int categoryId, string name, string description, string imageUrl)
+        {
+            this.CategoryId = categoryId;
+            this.Name = name;
+            this.Description = description;
+            this.ImageUrl = imageUrl;
+
+        }
         public int CategoryId { get; set; }
 
         [Required]
